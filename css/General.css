@@ -1,0 +1,136 @@
+/* 
+
+--- 01 TYPOGRPHY SYSTEM
+
+ -FONT SIZE SYSTEM (px)
+
+   10 / 12 / 14 / 16 / 18 / 20 / 24 
+   / 30 / 36 / 44 / 52 / 62 / 74 / 86
+   / 98
+
+ -Font-weight: 400,700 
+
+
+ -Line-height: 1.3
+
+
+
+- Letter spacing
+
+
+--- 02 COLORS   
+
+ - Primary:#000
+ -Secondary.#fff 
+ 
+ -- Tints--
+
+ - Black:
+ #1a1a1a
+
+ - Greys: 
+ #495057
+ #5b6268
+
+
+
+ - Shades:
+ 
+ - Accents:
+--- 05 SHADOWS: rgba(0, 0, 0, 0.1)
+
+--- 06 BORDER-RADIUS: 11px,9px,50%
+
+
+
+--- 07 WHITESPACE 
+
+  -Spacing system (px)
+
+   2 / 4 / 8 / 12 / 16 / 24 / 32 
+   / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/**********************************/
+/*GLOBAL SETTINGS*/
+/**********************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+}
+/**********************************/
+/* GENERAL REUSABLE COMPONENTS*/
+/**********************************/
+
+.display-flex {
+  display: flex;
+}
+.display-flex--column {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40rem 0;
+  gap: 30rem;
+  max-width: 120rem;
+}
+.service {
+  box-shadow: 2rem 2rem 4px rgba(0, 0, 0, 0.1);
+  padding: 4rem 3.2rem;
+  margin: 0 4rem;
+  border-radius: 11px;
+  gap: 6rem;
+  background-color: #000;
+}
+
+.service-info {
+  gap: 4rem;
+  padding: 2.5rem 4rem;
+  border-radius: 9px;
+  background-color: #5b6268;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.service-detalis {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  gap: 2rem;
+  font-size: 2.4rem;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+ul {
+  list-style: none;
+}
+.service-img--logos {
+  margin-top: auto;
+  margin-left: auto;
+  height: 4rem;
+  width: 4rem;
+}
+.service-img--logos img {
+  border-radius: 50%;
+  width: 100%;
+}

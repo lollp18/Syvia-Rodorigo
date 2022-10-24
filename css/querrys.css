@@ -1,0 +1,145 @@
+/**********************************/
+/* UNTER:1.872px */
+/**********************************/
+
+@media (max-width: 117em) {
+  /* MOBILE */
+  .service-navigation {
+    position: fixed;
+    align-items: center;
+    transform: translate(999rem, 50%);
+    transition: all 0.3s ease-in-out;
+    left: 0;
+    z-index: 9999;
+    top: 9rem;
+    gap: 2rem;
+    padding: 3rem;
+    height: 50rem;
+    border-radius: 11px;
+    width: 98%;
+    margin: 2rem 4rem 0 1.5rem;
+    background-color: #1a1a1a;
+  }
+  .open {
+    transform: unset;
+  }
+
+  .service-header {
+    gap: 0;
+  }
+
+  .navigation-liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .navigation-list,
+  .navigation-list:link,
+  .navigation-list:visited {
+    align-items: center;
+    width: 27rem;
+  }
+
+  .btn-Mobile-Nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+/**********************************/
+/* UNTER:1.200px */
+/**********************************/
+
+@media (max-width: 75em) {
+  .grid-messungen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-img--Messungen {
+    width: 100%;
+  }
+  .grid-service-info-messungen {
+    grid-column: span 2;
+  }
+
+  .service-img--SchornsteinM {
+    width: 100%;
+  }
+
+  .service-img--kachelofen {
+    width: 100%;
+  }
+}
+
+/**********************************/
+/* UNTER:1.050px */
+/**********************************/
+
+@media (max-width: 65.625em) {
+  .service-imgs--SchornsteinA {
+    width: 100%;
+  }
+}
+
+/**********************************/
+/* UNTER:800px */
+/**********************************/
+
+@media (max-width: 50em) {
+  address {
+    align-items: center;
+    gap: 1.5rem !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .service-header {
+    width: 96%;
+  }
+  .service-navigation {
+    width: 96%;
+  }
+  .mobil-header {
+    width: 96%;
+  }
+  .address-heading {
+    margin-left: 0;
+  }
+  .address-list {
+    margin-left: 0;
+  }
+}
+
+/**********************************/
+/* UNTER:600px */
+/**********************************/
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 45%;
+  }
+  .service-img--logo {
+    width: 35px;
+  }
+}
+
+/**********************************/
+/* UNTER:440px */
+/**********************************/
+
+@media (max-width: 27.5em) {
+  .grid-messungen {
+    grid-template-columns: 1fr;
+  }
+  .grid-service-info-messungen {
+    grid-column: unset;
+  }
+  html {
+    font-size: 33%;
+  }
+  .service-img--logo {
+    width: 25px;
+  }
+}
